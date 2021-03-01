@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*#main*/
+#main{width: 100%; height: 820px; background-image: url(../img/header-bg.jpg); background-size: cover; background-position: 50% 50%; position: relative;}
+
+#main .cloud{width: 100%; height: 100%; background-image: url(../img/cloud.png); background-repeat: no-repeat; background-size: auto 400px; animation:moveCloud 120s infinite;}
+@keyframes moveCloud{
+    0%{background-position: 0 100%;}
+    50%{background-position: 100% 100%;}
+    100%{background-position: 0% 100%;}
+}
+
+#main .cloud .title_group{position: absolute; left: 50%; top: 50%; transform: translate(-50%); font-size: 0; text-align: center;}
+#main .cloud .title_group p{color: #fff; font-size: 18px; text-shadow: 0 0 2px rgba(0,0,0,0.85); line-height: 1.2;}
+#main .cloud .title_group h1{font-size: 36px; color: #fff; padding: 20px 0 50px; line-height: 1.2;}
+#main .cloud .title_group h1 span{font-size: 48px;}
+#main .cloud .title_group h1 span span{font-size: 36px;}
+
+
+
+#main .cloud .title_group ul{}
+#main .cloud .title_group ul li{display: inline-block; padding: 0 20px;}
+#main .cloud .title_group ul li a{display: block; background-color: #5e889e; width: 160px ; height: 30px;  line-height: 30px; border-radius: 4px; font-size: 16px; color: #fff; text-transform: uppercase;}
+
+#main .cloud .title_group ul li:hover a{background-color: #999; color: #755562; font-weight: bold;}
+
+
+
+.sec_01{height: 270px;margin: -60px 0 50px; position: relative;}
+.sec_01 .wrap{width: 1200px; height: 100%; margin: 0 auto; background-color: #fff; font-size: 0;}
+.sec_01 .wrap .cont{width: 380px; height: 260px;  display: inline-block; vertical-align: top; text-align: center; font-size: 16px; padding: 0 10px;}
+.sec_01 .wrap .cont .img{margin: 0 auto; background-image: url(../img/if_vector_65_02_473778.svg); height: 130px; background-size: contain; background-repeat: no-repeat; background-position: 50% 50%;}
+.sec_01 .wrap .cont:nth-child(2) .img{background-image: url(../img/if_vector_65_07_473788.svg);}
+.sec_01 .wrap .cont:nth-child(3) .img{background-image: url(../img/if_vector_65_14_473802.svg);}
+
+.sec_01 .wrap .cont h1{padding: 20px 0; font-size: 18px; color: #5c5c5c;}
+.sec_01 .wrap .cont p{font-size: 14px; color: #5c5c5c;}
+
+
+
+
+.sec_02{height: 200px; background-image: url(../img/Investment-Performance-Banner-650.jpg); background-size: cover; background-position: 50% 100%; background-attachment: fixed;}
+.sec_02 .dark{width: 100%; height: 100%; background-color:rgba(0,0,0,0.5);}
+.sec_02 .dark .wrap{position: relative; width: 1200px; height: 100%; margin: 0 auto;}
+.sec_02 .dark .wrap .cont{position: absolute; left: 50%; top: 50%; transform: translate(-50% , -50%); text-align: center;}
+.sec_02 .dark .wrap .cont h1{padding-bottom: 20px; font-size: 24px; color: #fff;} 
+.sec_02 .dark .wrap .cont a{ display: block; color: #5e889e; font-size: 14px;}
+
+
+
+.sec_03{height: 800px; background-image: url(../img/main2-bg.png), url(../img/main1-bg.png); background-size: cover; background-repeat: no-repeat;}
+.sec_03 .wrap{width: 1200px; height: 100%; margin: 0 auto;}
+.sec_03 .wrap .title{text-align: center; padding: 80px 0 40px;}
+.sec_03 .wrap .title h3{font-size: 36px; color: #5e889e; line-height: 30px;}
+
+.sec_03 .wrap .cont{width: 100%; height: 420px; font-size: 0;}
+.sec_03 .wrap .cont .contents{position: relative; width: 280px; height: 420px; display: inline-block; vertical-align: top; margin: 0 10px; font-size: 16px; background-color: #fff; padding:20px; border-radius: 4px; box-shadow: 0 0 4px #5c5c5c;}
+
+.sec_03 .wrap .cont .contents .img{display: block; height: 160px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;}
+
+.sec_03 .wrap .cont .contents:hover .img{transform: scale(1.05); transition: transform 1s;}
+
+.sec_03 .wrap .cont .contents:nth-child(1) .img{background-image: url(../img/invest-01.jpg);}
+.sec_03 .wrap .cont .contents:nth-child(2) .img{background-image: url(../img/invest-02.jpg);}
+.sec_03 .wrap .cont .contents:nth-child(3) .img{background-image: url(../img/invest-03.jpg);}
+.sec_03 .wrap .cont .contents:nth-child(4) .img{background-image: url(../img/invest-04.jpg);}
+
+.sec_03 .wrap .cont .contents h1{font-size: 18px; color: #5c5c5c; padding: 40px 0 10px;}
+.sec_03 .wrap .cont .contents p{font-size: 14px; color: #5c5c5c; line-height: 14px;}
+.sec_03 .wrap .cont .contents a{position: absolute; right: 20px; bottom: 20px; width: 40px; height: 40px; display: block; background-size: cover; background-position: 50% 50%; background-image: url(../img/arrow_right.png);}
+
+.sec_03 .wrap .pay{margin: 80px 0; padding: 0 10px;}
+.sec_03 .wrap .pay img{height: 50px; display: block; width: 1180px;}
+
+
+
+
+
+.sec_04{height: 430px; background-image: url(../img/quick-enquiry.jpg); background-size: cover; background-position: 50% 50%;}
+.sec_04 .dark{width: 100%; height: 100%; background-color: rgba(191, 195, 250, 0.5);}
+.sec_04 .dark .wrap{width: 1200px; height: 100%; margin: 0 auto;}
+.sec_04 .dark .wrap .title{color: #fff; text-align: center; font-size: 36px; line-height: 30px; padding: 60px 0 40px;}
+.sec_04 .dark .wrap .title h1{}
+
+.sec_04 .dark .wrap .managers{font-size: 0;}
+.sec_04 .dark .wrap .managers .top{}
+.sec_04 .dark .wrap .managers .bottom{text-align: center;}
+.sec_04 .dark .wrap .managers .m_img{width: 180px; height: 100px; background-color: #aaff; display: inline-block; margin: 10px;}
+
+.sec_04 .dark .wrap .managers .top .m_img:nth-child(1){background-image: url(../img/m_01.jpg);}
+.sec_04 .dark .wrap .managers .top .m_img:nth-child(2){background-image: url(../img/m_02.jpg);}
+.sec_04 .dark .wrap .managers .top .m_img:nth-child(3){background-image: url(../img/m_03.jpg);}
+.sec_04 .dark .wrap .managers .top .m_img:nth-child(4){background-image: url(../img/m_04.jpg);}
+.sec_04 .dark .wrap .managers .top .m_img:nth-child(5){background-image: url(../img/m_05.jpg);}
+.sec_04 .dark .wrap .managers .top .m_img:nth-child(6){background-image: url(../img/m_06.jpg);}
+
+.sec_04 .dark .wrap .managers .bottom .m_img:nth-child(1){background-image: url(../img/m_07.jpg);}
+.sec_04 .dark .wrap .managers .bottom .m_img:nth-child(2){background-image: url(../img/m_08.jpg);}
+.sec_04 .dark .wrap .managers .bottom .m_img:nth-child(3){background-image: url(../img/m_09.jpg);}
+.sec_04 .dark .wrap .managers .bottom .m_img:nth-child(4){background-image: url(../img/m_10.jpg);}
+
+
+
+
+
+
+
+
+.sec_04 .dark .wrap .managers .top .m_img{}
+.sec_04 .dark .wrap .managers .bottom .m_img{}

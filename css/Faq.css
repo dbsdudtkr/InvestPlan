@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+
+/* w: 980  c: 5e889e*/
+.Faq_cont{height: 1450px; margin-top: -60px; margin-bottom: 160px; font-size: 0;}
+.Faq_cont .wrap{width: 1200px; height: 100%; margin: 0 auto;}
+.Faq_cont .wrap h3{text-align: center; font-size: 24px; font-weight: normal;}
+.Faq_cont .wrap h3 span{font-weight: bold;}
+.Faq_cont .wrap .cont{width: 980px; margin: 0 auto; border: 1px solid #5e889e; margin: 40px auto;}
+.Faq_cont .wrap .cont h1{color: #5e889e; font-size: 18px; margin:20px 20px 0;}
+.Faq_cont .wrap .cont p{font-size: 14px; margin: 20px;}
